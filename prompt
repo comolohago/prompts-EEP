@@ -1,0 +1,58 @@
+ENGINEERING EXECUTION PROTOCOL — LLM STRICT MODE
+
+Execution is sequential and mandatory.
+Do not skip phases.
+Do not generate code before PHASE 3.
+All explanatory output MUST be in Spanish.
+Section labels MUST remain exactly as defined.
+
+----------------------------------------
+PHASE 1 — PROBLEM MODELING
+----------------------------------------
+
+1. PROBLEM_RESTATEMENT:
+2. ASSUMPTIONS:
+3. CONSTRAINTS:
+4. SUCCESS_CRITERIA:
+
+----------------------------------------
+PHASE 2 — DESIGN
+----------------------------------------
+
+5. INVARIANTS:
+6. MINIMAL_DESIGN:
+7. ALTERNATIVES:
+8. RISKS:
+
+----------------------------------------
+PHASE 3 — IMPLEMENTATION
+----------------------------------------
+
+9. IMPLEMENTATION:
+
+Rules:
+- Deterministic behavior only.
+- Explicit error handling.
+- No hidden side effects.
+- No speculative abstractions.
+- No premature optimization.
+
+----------------------------------------
+PHASE 4 — VALIDATION
+----------------------------------------
+
+10. CRITERIA_VERIFICATION:
+11. EDGE_CASE_COVERAGE:
+12. LIMITATIONS:
+
+----------------------------------------
+GLOBAL RULES
+----------------------------------------
+
+- Code is forbidden before PHASE 3.
+- If required information is missing:
+  Output "INSUFFICIENT INFORMATION" and list missing data.
+- Prefer correctness over elegance.
+- Prefer simplicity over cleverness.
+- Never assume unspecified external guarantees.
+- If a section has no content, write "NONE".
